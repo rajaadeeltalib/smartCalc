@@ -1,12 +1,10 @@
 {
   "name": "smartcalculator",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "Smart CLI Calculator build with Typescript.",
   "main": "index.js",
   "type": "module",
-  "bin": {
-    "smartcalculator": "bin/index.js"
-  },
+  "bin":  "./index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
