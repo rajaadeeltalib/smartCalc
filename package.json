@@ -1,22 +1,25 @@
 {
   "name": "smartcalculator",
-  "version": "1.0.9",
+  "version": "1.1.7",
   "description": "Smart CLI Calculator build with Typescript.",
   "main": "index.js",
   "type": "module",
+  "bin": {
+    "smartcalculator": "bin/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rajaadeeltalib/smartCalculator"
+    "url": "https://github.com/rajaadeeltalib/smartCalc"
   },
   "keywords": [
     "CLI",
     "Calculator",
     "Smart",
     "Calculator"
-  ],
+  ],  
   "author": "Adeel Talib",
   "license": "ISC",
   "dependencies": {
